@@ -64,7 +64,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 export default function ClippedDrawer({ children }: any) {
   const navigate = useNavigate();
-  
+
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -107,7 +107,10 @@ export default function ClippedDrawer({ children }: any) {
             {MenuItems.map((menu, index) => (
               <ListItem key={index} disablePadding>
                 <ListItemButton>
-                  <ListItemText primary={menu.name} onClick={() => navigate(menu.url)} />
+                  <ListItemText
+                    primary={menu.name}
+                    onClick={() => (window.location.href = menu.url)}
+                  />
                 </ListItemButton>
               </ListItem>
             ))}

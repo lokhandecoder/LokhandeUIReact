@@ -38,67 +38,17 @@ const TextFieldExample = () => {
         </li>
         <li>
           <p>
-            Use the component in your JSX where you want to render the text
+            Use the component in your TSX where you want to render the Number
             field.
           </p>
         </li>
       </ol>
       <p>
-        And that's it! You've successfully integrated the React text field
+        And that's it! You've successfully integrated the React Number field
         component into your project.
       </p>
     </div>
-    // <div className="description-container">
-    //   <h1>How to Use React Text Field</h1>
-    //   <p>
-    //     Welcome to our tutorial on how to use the React text field component.
-    //     Below, you'll find an example of a simple React text field that you can
-    //     incorporate into your own projects.
-    //   </p>
-    //   <h2>Example:</h2>
-    //   <input
-    //     type="text"
-    //     value={textFieldValue}
-    //     onChange={handleTextFieldChange}
-    //     placeholder="Type something..."
-    //     className="text-input"
-    //   />
-    //   <h2>Usage:</h2>
-    //   <p>
-    //     To use the React text field component in your project, follow these
-    //     steps:
-    //   </p>
-    //   <ol>
-    //     <li>
-    //       <p>
-    //         Copy the code of the component into
-    //         your project. You can find the component code below or in our
-    //         documentation.
-    //       </p>
-    //     </li>
-    //     <li>
-    //       <p>
-    //         Create a new file for the component, e.g.,{" "}
-    //       </p>
-    //     </li>
-    //     <li>
-    //       <p>
-    //         Import the component into your main
-    //         application file.
-    //       </p>
-    //     </li>
-    //     <li>
-    //       <p>
-    //         Use the  component in your JSX where
-    //         you want to render the text field.
-    //       </p>
-    //     </li>
-    //   </ol>
-    //   <p>
-    //     And that's it! You've successfully integrated the React text field
-    //     component into your project.
-    //   </p>
-    // </div>
+   
   );
 };
 

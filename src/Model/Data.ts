@@ -5,6 +5,9 @@ const MenuItems = [
     },{
         name: 'textfield',
         url: '/textfield'
+    },{
+        name: 'numberfield',
+        url: '/numberfield'
     }
 ];
 
